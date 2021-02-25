@@ -38,10 +38,11 @@ const Project = () => {
         <div className="card">
           <h1>
             {' '}
-            Guessing <br /> Number Game.
+            Bookmark <br />
+            Page.
           </h1>
           <a
-            href="https://guessing-number-game.netlify.app/"
+            href="https://bookmark-app-now.netlify.app/"
             target="_blank"
             rel="noreferrer"
             className="card-link"
@@ -51,7 +52,7 @@ const Project = () => {
           </a>
           <div className="image-links">
             <a
-              href="https://github.com/iamkennis/dice-picker-game"
+              href="https://github.com/iamkennis/Bookmark-Page"
               target="_blank"
               rel="noreferrer"
             >
@@ -62,10 +63,10 @@ const Project = () => {
         <div className="card">
           <h1>
             {' '}
-            Guessing <br /> Number Game.
+            People <br /> Profile.
           </h1>
           <a
-            href="https://guessing-number-game.netlify.app/"
+            href="https://people-profile.netlify.app/"
             target="_blank"
             rel="noreferrer"
             className="card-link"
@@ -75,7 +76,7 @@ const Project = () => {
           </a>
           <div className="image-links">
             <a
-              href="https://github.com/iamkennis/dice-picker-game"
+              href="https://github.com/iamkennis/Peoples-Profile"
               target="_blank"
               rel="noreferrer"
             >

@@ -3,7 +3,6 @@ import { gsap } from 'gsap'
 import styles from './styles.module.css'
 
 
-
 export default function Banner() {
   const greet = useRef(null)
   const name = useRef(null)
@@ -13,10 +12,6 @@ export default function Banner() {
 
   useEffect(() => {
     const tl = gsap.timeline({ paused: true })
-    const pathTl = gsap.timeline({
-      delay: 0.1,
-      yoyo: true,
-    })
     tl.fromTo(
       greet.current,
       0.1,
