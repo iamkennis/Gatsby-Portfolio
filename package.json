@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default-dark-mode",
+  "name": "amodu-kehinde-v1",
   "private": false,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Alexandre Ramos <alexandresantos84@gmail.com>",
+  "author": "Amodu Kehinde <amodukehindee@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.19.7",
@@ -12,14 +12,23 @@
     "gatsby-plugin-offline": "^3.0.32",
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sharp": "^2.4.3",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-sass": "^2.3.6",
     "gatsby-plugin-styled-components": "^3.1.19",
+    "gatsby-plugin-smoothscroll": "^1.1.0",
+    "gatsby-plugin-typography": "^2.5.4",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-sharp": "^2.3.13",
     "prop-types": "^15.7.2",
+    "node-sass": "^4.14.1",
+    "gsap": "^3.3.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "styled-components": "^5.0.0"
+    "react-typography": "^0.16.19",
+    "styled-components": "^5.0.0",
+    "typography": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
@@ -27,7 +36,8 @@
   "keywords": [
     "gatsby",
     "dark",
-    "styled-components"
+    "styled-components",
+    "portfolio"
   ],
   "license": "MIT",
   "scripts": {
@@ -41,9 +51,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexandreramosdev/gatsby-starter-default-dark-mode"
+    "url": "/"
   },
   "bugs": {
-    "url": "https://github.com/alexandreramosdev/gatsby-starter-default-dark-mode/issues"
+    "url": "/"
   }
 }
