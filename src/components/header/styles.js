@@ -85,67 +85,67 @@ export const Stick = styled.div``
 // darkgreen #283d3b
 // green #197278
 export const NavToggle = styled.div`
-  background: #197278;
-  position: fixed;
-  height: 100vh;
-  width: 35vw;
-  transform: translateX(1000px);
-  z-index: -1;
-  right: 0;
-  top: 0;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-areas: " link . . . . social ";
+         background: #005180;
+         position: fixed;
+         height: 100vh;
+         width: 35vw;
+         transform: translateX(1000px);
+         z-index: -1;
+         right: 0;
+         top: 0;
+         padding: 20px;
+         display: grid;
+         grid-template-columns: repeat(6, 1fr);
+         grid-template-areas: ' link . . . . social ';
 
-  & > ul {
-    grid-area: link;
-    align-self: center;
-    justify-self: start;
-    margin-bottom: 0;
-    & > li {
-      list-style-type: none;
-      margin-bottom: -5px;
+         & > ul {
+           grid-area: link;
+           align-self: center;
+           justify-self: start;
+           margin-bottom: 0;
+           & > li {
+             list-style-type: none;
+             margin-bottom: -5px;
 
-      @media screen and (max-width: 500px) {
-        margin-bottom: 35px;
-      }
-      & > a {
-        cursor: pointer;
-        color: #f8f8f8;
-        text-decoration: none;
-        font-size: 3.5rem;
-        position: relative;
+             @media screen and (max-width: 500px) {
+               margin-bottom: 35px;
+             }
+             & > a {
+               cursor: pointer;
+               color: #f8f8f8;
+               text-decoration: none;
+               font-size: 3.5rem;
+               position: relative;
 
-        &:after {
-          content: "";
-          display: block;
-          background: rgb(255, 255, 255);
-          height: 0px;
-          position: absolute;
-          left: -8px;
-          right: -12px;
-          bottom: -1px;
-          opacity: 0.1;
-          transition: all 0.25s ease;
-        }
+               &:after {
+                 content: '';
+                 display: block;
+                 background: rgb(255, 255, 255);
+                 height: 0px;
+                 position: absolute;
+                 left: -8px;
+                 right: -12px;
+                 bottom: -1px;
+                 opacity: 0.1;
+                 transition: all 0.25s ease;
+               }
 
-        &:hover::after {
-          height: 27px;
-          opacity: 0.15;
-        }
-      }
-    }
-  }
+               &:hover::after {
+                 height: 27px;
+                 opacity: 0.15;
+               }
+             }
+           }
+         }
 
-  @media screen and (max-width: 980px) {
-    width: 780px;
-  }
+         @media screen and (max-width: 980px) {
+           width: 780px;
+         }
 
-  @media screen and (max-width: 500px) {
-    width: 100vw;
-  }
-`
+         @media screen and (max-width: 500px) {
+           width: 100vw;
+         }
+       `
 
 export const Con = styled.section`
   margin-bottom: 10px;

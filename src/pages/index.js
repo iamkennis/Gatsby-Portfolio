@@ -12,8 +12,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Amodu Kehinde | Portfolio" />
     <Banner />
-    <About />
     <Personal />
+    <About />
     <Project />
   </Layout>
 )

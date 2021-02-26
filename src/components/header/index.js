@@ -109,9 +109,9 @@ export default function Header({ logo }) {
           style={logo}
         >
           {' '}
-          <span style={{ color: 'var(--textInverse)' }} role="logo">
+          {/* <span style={{ color: 'var(--textInverse)' }} role="logo">
             KENNIS.{' '}
-          </span>{' '}
+          </span>{' '} */}
         </Logo>
         <ThemeToggler>
           <div onClick={themeToggle}>{theme === 'dark' ? '☀' : '☾'}</div>
@@ -137,17 +137,6 @@ export default function Header({ logo }) {
             </a>
           </li>
 
-          {/* <li ref={Link} onClick={() => setToggled(!isToggled)}>
-            <a
-              href="/"
-              id="pen"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Writings
-            </a>
-          </li> */}
-
           <li ref={Link} onClick={() => setToggled(!isToggled)}>
             <a
               href="#project"
@@ -157,6 +146,16 @@ export default function Header({ logo }) {
               }}
             >
               Project
+            </a>
+          </li>
+          <li ref={Link} onClick={() => setToggled(!isToggled)}>
+            <a
+              href="https://drive.google.com/file/d/1QCnaFF9R3tTzTxzm0WtkQk_amNUwKWwA/view"
+              id="pen"
+              target="_blank"
+              rel="noreferrer"
+            >
+             Resume
             </a>
           </li>
 
@@ -202,14 +201,6 @@ export default function Header({ logo }) {
               >
                 LN
               </a>
-              {/* <a
-                href="/"
-                target="_blank"
-                rel="noreferrer"
-                className="md"
-              >
-                MD
-              </a> */}
             </Social>
           </li>
         </ul>

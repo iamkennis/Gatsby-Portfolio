@@ -32,7 +32,7 @@
 
 .About div:nth-child(1) h1 {
   font-size: 3rem;
-  width: 20rem;
+  width: 25rem;
   color: var(--textCreamy);
 }
 
