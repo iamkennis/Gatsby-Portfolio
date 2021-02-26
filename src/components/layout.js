@@ -4,8 +4,8 @@ import { ThemeProvider } from "styled-components"
 import GlobalStyle from "../styles/globalStyles"
 import { theme as styledTheme } from "../styles/theme"
 
-import Header from "./header"
-import Footer from "./footer"
+import Header from "./Header"
+import Footer from "./Footer"
 import { Container } from "./container"
 
 const Layout = ({ children }) => {
