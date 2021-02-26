@@ -51,9 +51,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "/"
+    "url": "https://github.com/iamkennis/Gatsby-Portfolio.git/"
   },
   "bugs": {
-    "url": "/"
+    "url": "https://github.com/iamkennis/Gatsby-Portfolio.git/issues"
   }
 }
