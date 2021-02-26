@@ -1,9 +1,9 @@
 import React from "react"
-import About from "../components/About/index"
-import Banner from "../components/Banner"
-import Project from "../components/Project"
+import About from "../components/about"
+import Banner from "../components/banner"
+import Project from "../components/project"
 import Layout from "../components/layout"
-import Personal from "../components/Personal"
+import Personal from "../components/personal"
 import SEO from "../components/seo"
 
 
