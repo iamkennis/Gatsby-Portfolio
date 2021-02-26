@@ -2,7 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-const ProfileImage = () => {
+export const Image = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "kennis.jpg" }) {
@@ -15,7 +15,5 @@ const ProfileImage = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+ return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
-
-export default ProfileImage
