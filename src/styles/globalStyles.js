@@ -40,7 +40,7 @@ body {
     --link: #542c85;    
   }
   &.light {
-    --bg: #f8f8f8;
+    --bg:#e6e4e4 ;
     --textNormal: rgba(0, 0, 0, 0.7);
     --textInverse: #000;
     --textTitle: #303030;

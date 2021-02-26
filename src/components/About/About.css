@@ -33,7 +33,7 @@
 .About div:nth-child(1) h1 {
   font-size: 3rem;
   width: 25rem;
-  color: var(--textCreamy);
+  color: var(--textCreamy) ;
 }
 
 @media screen and (max-width: 500px) {

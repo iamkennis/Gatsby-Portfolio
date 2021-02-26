@@ -64,14 +64,6 @@ export default function Footer() {
             {' '}
             Linkedin{' '}
           </a>
-          {/* <a
-            href=""
-            target="_blank"
-            rel="noreferrer"
-          >
-            {' '}
-            Medium.{' '}
-          </a> */}
         </LeftOutro>
         <RightOutro>
           <p>&copy; {getYear} amodukehinde</p>

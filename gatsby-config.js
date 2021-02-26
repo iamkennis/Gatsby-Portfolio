@@ -39,7 +39,7 @@ module.exports = {
         short_name: `kennis`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#427280`,
+        theme_color: `#005180`,
         display: `minimal-ui`,
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
