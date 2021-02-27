@@ -214,6 +214,14 @@ export default function Header({ logo }) {
               >
                 LN
               </a>
+              <a
+                href="https://iamkennis.hashnode.dev/"
+                target="_blank"
+                rel="noreferrer"
+                className="ln"
+              >
+                BL
+              </a>
             </Social>
           </li>
         </ul>

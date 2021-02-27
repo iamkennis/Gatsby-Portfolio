@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Image } from './url'
+import { Github } from './github'
 import './blog.css'
 
 const Blog = () => {
@@ -31,7 +31,7 @@ const Blog = () => {
               target="_blank"
               rel="noreferrer"
             >
-              {/* <Image /> */}
+             <Github/>
             </a>
           </div>
         </div>
