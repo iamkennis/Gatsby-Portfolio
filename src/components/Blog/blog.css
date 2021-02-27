@@ -1,4 +1,4 @@
-.projects {
+.blog {
   min-height: 100vh;
   padding: 50px;
   display: -webkit-box;
@@ -15,12 +15,12 @@
 }
 
 @media screen and (max-width: 500px) {
-  .projects {
+  .blog {
     padding: 30px;
   }
 }
 
-.projects h1 {
+.blog h1 {
   font-size: 3rem;
   color: var(--textTitle);
   -ms-flex-item-align: center;
@@ -29,12 +29,12 @@
 }
 
 @media screen and (max-width: 500px) {
-  .projects h1 {
+  .blog h1 {
     font-size: 2rem;
   }
 }
 
-.projects p {
+.blog p {
   color: var(textNormal);
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
@@ -42,7 +42,7 @@
   text-align: center;
 }
 
-.projects .container {
+.blog .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,7 +56,7 @@
   justify-content: center;
 }
 
-.projects .container div.card {
+.blog .container div.card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,7 +68,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   -ms-flex-preferred-size: 400px;
-  flex-basis: 400px;
+  flex-basis: 600px;
   margin-bottom: 40px;
   min-height: 400px;
   padding: 40px;
@@ -77,8 +77,8 @@
   position: relative;
 }
 
-.projects .container div.card h1,
-.projects .container div.card .card-link {
+.blog .container div.card h1,
+.blog .container div.card .card-link {
   color: white;
   -ms-flex-item-align: start;
   -ms-grid-row-align: start;
@@ -86,12 +86,12 @@
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
-.projects .container div.card a.card-link {
+.blog .container div.card a.card-link {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 5px;
 }
 
-.projects .container div.card:hover {
+.blog .container div.card:hover {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
   -webkit-box-shadow: inset 20px 20px 70px rgba(0, 0, 0, 0.3),
@@ -101,36 +101,36 @@
 }
 
 @media screen and (max-width: 500px) {
-  .projects .container div.card {
+  .blog .container div.card {
     min-height: 300px;
   }
 }
 
-.projects .container div.card:nth-child(1) {
-  background: #c44536;
+.blog .container div.card:nth-child(1) {
+  background: #ac005e;
 }
 
-.projects .container div.card:nth-child(2) {
-  background: #772e25;
-}
-
-.projects .container div.card:nth-child(3) {
+.blog .container div.card:nth-child(2) {
   background: #2e429b;
 }
 
-.projects .container div.card:nth-child(4) {
+.blog .container div.card:nth-child(3) {
+  background: #2e429b;
+}
+
+.blog .container div.card:nth-child(4) {
   background: #022859;
 }
 
-.projects .container div.card:nth-child(5) {
+.blog .container div.card:nth-child(5) {
   background: #c44536;
 }
 
-.projects .container div.card:nth-child(6) {
+.blog .container div.card:nth-child(6) {
   background: #772e25;
 }
 
-.projects .container .image-links {
+.blog .container .image-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -138,55 +138,14 @@
   bottom: 20px;
 }
 
-.projects .container .image-links * {
+.blog .container .image-links * {
   width: 30px;
 }
 
-.projects .container .image-links a {
+.blog .container .image-links a {
   cursor: pointer;
 }
 
-.projects .container .image-links a:nth-child(2) {
+.blog .container .image-links a:nth-child(2) {
   margin-left: 20px;
-}
-
-.projects button {
-  width: 10rem;
-  text-transform: uppercase;
-  border: 1px solid red;
-  cursor: pointer;
-  padding: 10px;
-  font-size: 0.7rem;
-  background: transparent;
-  position: relative;
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-  overflow: hidden;
-  display: none;
-}
-
-.projects button::before {
-  position: absolute;
-  content: '';
-  width: 100%;
-  -webkit-transform: translateX(-200px);
-  transform: translateX(-200px);
-  height: 100%;
-  background: red;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-}
-
-.projects button:hover,
-.projects button:focus-within {
-  color: white;
-}
-
-.projects button:hover::before,
-.projects button:focus-within::before {
-  -webkit-transform: translateX(0px);
-  transform: translateX(0px);
 }

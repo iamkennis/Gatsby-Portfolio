@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import styles from './styles.module.css'
 
-
 export default function Banner() {
   const greet = useRef(null)
   const name = useRef(null)
@@ -33,8 +32,6 @@ export default function Banner() {
         { x: 0, opacity: 1, ease: 'back.out(1.7)' }
       )
       .play()
-
-  
   }, [])
 
   return (
@@ -63,8 +60,8 @@ export default function Banner() {
 
           <section className={styles.bannerTextSection}>
             <p ref={left} className={styles.bannerTextSection__intro}>
-              I love to help create great and scalable frontend projects with
-              best user experiences.
+              I love to help create great and scalable frontend projects with best
+              user experiences.
             </p>
             {/* <p ref={right}>
                           
@@ -73,8 +70,7 @@ export default function Banner() {
         </div>
         <section className={styles.bannerScroll}>
           <section className={styles.bannerScroller}>
-            <section> 
-            </section>
+            <section></section>
           </section>
         </section>
       </div>

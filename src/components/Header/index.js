@@ -148,14 +148,27 @@ export default function Header({ logo }) {
               Project
             </a>
           </li>
+
           <li ref={Link} onClick={() => setToggled(!isToggled)}>
             <a
-              href="https://drive.google.com/file/d/1QCnaFF9R3tTzTxzm0WtkQk_amNUwKWwA/view"
+              href="#blog"
+              onClick={e => {
+                e.preventDefault()
+                scrollTo('#blog')
+              }}
+            >
+              Blog
+            </a>
+          </li>
+
+          <li ref={Link} onClick={() => setToggled(!isToggled)}>
+            <a
+              href="https://drive.google.com/file/d/11iueH3DwwCumOBDjP42Kd-eU_8EExt6P/view"
               id="pen"
               target="_blank"
               rel="noreferrer"
             >
-             Resume
+              Resume
             </a>
           </li>
 

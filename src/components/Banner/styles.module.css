@@ -154,7 +154,7 @@
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background: black;
+        background: white;
         margin: auto;
         animation: bounce 800ms cubic-bezier(0.7, 0, 0.3, 1) infinite alternate;
     }

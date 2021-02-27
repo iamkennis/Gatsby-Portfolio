@@ -3,8 +3,8 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import './personal.css'
 
-export default function More() {
-  const moreContainer = useRef(null)
+export default function Personal() {
+  const personalContainer = useRef(null)
   const iDesign = useRef(null)
   const iDevelop = useRef(null)
   const iLearn = useRef(null)
@@ -18,7 +18,7 @@ export default function More() {
       '(min-width: 992px)': function scrollOnMobile() {
         const tl = gsap.timeline({
           scrollTrigger: {
-            trigger: moreContainer.current,
+            trigger: personalContainer.current,
             scrub: true,
           },
         })
@@ -46,7 +46,7 @@ export default function More() {
   }, [])
 
   return (
-    <div className="more" id="more" ref={moreContainer}>
+    <div className="personal" id="personal" ref={personalContainer}>
       <div ref={iDesign}>
         <h1>iDesign. </h1>
         <p>
