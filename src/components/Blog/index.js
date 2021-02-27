@@ -14,7 +14,8 @@ const Blog = () => {
         <div className="card">
           <h1>
             {' '}
-            The complication of<br /> "this" keyword.
+            The complication of
+            <br /> "this" keyword.
           </h1>
           <a
             href="https://iamkennis.hashnode.dev/the-complications-of-this-keywords-cklo1kxi0035k95s1c76z0fa8"
@@ -27,11 +28,11 @@ const Blog = () => {
           </a>
           <div className="image-links">
             <a
-              href=""
+              href="https://iamkennis.hashnode.dev/the-complications-of-this-keywords-cklo1kxi0035k95s1c76z0fa8"
               target="_blank"
               rel="noreferrer"
             >
-             <Github/>
+              <Github />
             </a>
           </div>
         </div>
