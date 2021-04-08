@@ -40,14 +40,14 @@ body {
     --link: #542c85;    
   }
   &.light {
-    --bg:#e6e4e4 ;
-    --textNormal: rgba(0, 0, 0, 0.7);
-    --textInverse: #000;
-    --textTitle: #303030;
+    --bg: #2f2a41;
+    --textNormal: #fff;
+    --textInverse: #fff;
+    --textTitle: #dbdbdc;
     --textTitleInverse: #dbdbdc;
-    --textCreamy: #131217;
-    --shadyText: #4c4c55;
-    --textHeaderColor: #005180;
+    --textCreamy:  #f8f8f9;
+    --shadyText: #ffffff9e;
+    --textHeaderColor: #00b386;
     --textHeaderBg: #fff:
     --link: #542c85;
   }

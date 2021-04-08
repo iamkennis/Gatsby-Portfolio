@@ -55,24 +55,24 @@ export default function Banner() {
           </h1>
 
           <h1 className={styles.jobTitle} ref={title}>
-            Frontend Developer
+            Frontend Software Developer
           </h1>
 
           <section className={styles.bannerTextSection}>
             <p ref={left} className={styles.bannerTextSection__intro}>
-              I love to help create great and scalable frontend projects with best
-              user experiences.
+              I love to help create great and scalable frontend projects with
+              best user experiences. Currently, I am looking for dedicated team
+              to join, to help contribute to build great products that can help
+              grow and make the world a better a habitant.
             </p>
-            {/* <p ref={right}>
-                          
-            </p> */}
+            {/* <p></p> */}
           </section>
         </div>
-        <section className={styles.bannerScroll}>
+        {/* <section className={styles.bannerScroll}>
           <section className={styles.bannerScroller}>
             <section></section>
           </section>
-        </section>
+        </section> */}
       </div>
     </div>
   )
